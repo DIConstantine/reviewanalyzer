@@ -54,6 +54,7 @@ public class MainTest {
                  }
              })
         ) {
+            System.out.println("Start processing file...");
             long t = System.currentTimeMillis();
             WordsCounter wordsCounter = new WordsCounter();
             SimpleCounter usersCounter = new SimpleCounter();
